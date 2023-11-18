@@ -12,7 +12,7 @@ df = pd.read_csv(path, sep='\t', names=column_names)
 df.head() 
 
 # Check out all the movies and their respective IDs 
-movie_titles = pd.read_csv('https://media.geeksforgeeks.org/wp-content/uploads/Movie_Id_Titles.csv') 
+movie_titles = pd.read_csv('https://github.com/chinmay-1996/Movie-Recommender-System/blob/main/Movie_Id_Titles.csv') 
 movie_titles.head() 
 
 data = pd.merge(df, movie_titles, on='item_id') 
